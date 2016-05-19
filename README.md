@@ -26,7 +26,7 @@ Installation
 ------------
 
 1. Import **zbx-ejabberd-template.xml** file into Zabbix.
-2. Add **ejabberd.conf** to your host. Add **zabbix** to sudoers.d.
+2. Add **ejabberd.conf** to zabbix agentd config on your jabber host and add **zabbix** to sudo.
 3. Associate **Template App Ejabberd** template to the host.
 
 ### Requirements
