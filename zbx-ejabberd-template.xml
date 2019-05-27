@@ -158,7 +158,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>net.tcp.service[5222]</key>
+                    <key>net.tcp.service[tcp,,5222]</key>
                     <delay>60</delay>
                     <history>7</history>
                     <trends>365</trends>
@@ -203,7 +203,7 @@
                     <snmp_community/>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
-                    <key>net.tcp.service[5269]</key>
+                    <key>net.tcp.service[tcp,,5269]</key>
                     <delay>60</delay>
                     <history>7</history>
                     <trends>365</trends>
@@ -251,7 +251,7 @@
     </templates>
     <triggers>
         <trigger>
-            <expression>{Template App Ejabberd:net.tcp.service[5222].last()}&lt;&gt;0</expression>
+            <expression>{Template App Ejabberd:net.tcp.service[tcp,,5222].last()}&lt;&gt;0</expression>
             <name>ejabberd don't listen xmpp-client socket</name>
             <url/>
             <status>0</status>
