@@ -1,3 +1,2 @@
 Defaults:zabbix !requiretty
-zabbix ALL = NOPASSWD: /usr/local/sbin/ejabberdctl
-
+zabbix ALL = (ejabberd) NOPASSWD: /usr/local/sbin/ejabberdctl
