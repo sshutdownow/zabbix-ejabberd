@@ -26,16 +26,17 @@ Installation
 ------------
 
 1. Import **zbx-ejabberd-template.xml** file into Zabbix.
-2. Add **ejabberd.conf** to zabbix agentd config on your jabber host and add **zabbix** to sudo.
+2. Add **ejabberd.conf** to zabbix agentd config on your jabber host and add **zabbix** to sudo. Check: ``visudo -sc``
+
 3. Associate **Template App Ejabberd** template to the host.
 
 ### Requirements
 
-This template was tested for Zabbix 2.2.0 and higher. **sudo** is required to get statistics from ejabberd daemon.
+This template was tested to work with Zabbix 2.2.0 up to 5.0.xx. **sudo** is required to get statistics from ejabberd daemon.
 
 ### Copyright
 
-  Copyright (c) 2016 Igor Popov
+  Copyright (c) 2016-2025 Igor Popov
 
 License
 -------
