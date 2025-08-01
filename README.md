@@ -7,8 +7,8 @@ This template uses the zabbix agent to monitoring ejabberd server.
 Items
 -----
 
-  * ejabber outgoing_s2s_number
-  * ejabber outgoing_s2s_number
+  * ejabber connected_users_number
+  * ejabber incoming_s2s_number
   * ejabber outgoing_s2s_number
   * xmpp-server service is running
   * xmpp-client service is running
